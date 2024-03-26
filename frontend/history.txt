@@ -1,0 +1,5 @@
+#V2
+(contract-call? FanToken mint u4000000000 tx-sender)
+(contract-call? .FanToken mint u4000000000 tx-sender)
+(contract-call? .FanToken get-balance tx-sender)
+::help
